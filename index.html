@@ -1,80 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Mash Cloud Project</title>
+<meta charset="UTF-8">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-            color: white;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .card {
-            background: rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            animation: fadeIn 2s ease-in-out;
-        }
+.card {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    animation: fadeIn 2s ease-in-out;
+}
 
-        h1 {
-            font-size: 38px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
-        h2 {
-            font-weight: 300;
-            margin-bottom: 20px;
-        }
+h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
 
-        p {
-            font-size: 18px;
-            font-weight: 300;
-        }
+p {
+    font-size: 18px;
+}
 
-        .highlight {
-            color: #00ffcc;
-            font-weight: 500;
-        }
+.highlight {
+    color: #00ffcc;
+    font-weight: 500;
+}
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 
-        .card:hover {
-            transform: scale(1.05);
-            transition: 0.3s;
-        }
-    </style>
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+</style>
 </head>
 
 <body>
-
-    <div class="card">
-        <h1>Hello, I'm Mash 👋</h1>
-        <h2>My First Cloud DevOps Project</h2>
-        <p>This website is hosted using AWS S3 ☁️</p>
-        <p class="highlight">CI/CD is working perfectly 😎🔥</p>
-    </div>
-
+<div class="card">
+    <h1>Hello, I'm Mash 👋</h1>
+    <h2>My First Cloud DevOps Project</h2>
+    <p>This website is hosted using AWS S3 ☁️</p>
+    <p class="highlight">CI/CD is working perfectly 😎🔥</p>
+</div>
 </body>
 </html>
