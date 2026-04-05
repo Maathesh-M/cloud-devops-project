@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Mash Cloud Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: #00ffcc;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello, I'm Mash 👋</h1>
-    <h2>My First Cloud DevOps Project</h2>
-    <p>This website is hosted using AWS S3!</p>
-    <p>CI/CD finally working 😎🔥</p>
+
+    <div class="card">
+        <h1>Hello, I'm Mash 👋</h1>
+        <h2>My First Cloud DevOps Project</h2>
+        <p>This website is hosted using AWS S3 ☁️</p>
+        <p class="highlight">CI/CD is working perfectly 😎🔥</p>
+    </div>
+
 </body>
 </html>
