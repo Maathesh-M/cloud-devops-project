@@ -4,6 +4,9 @@
 
 This project demonstrates how to deploy a static website using AWS S3 and automate the deployment process using GitHub Actions (CI/CD).
 
+## 🌐 Live Demo
+👉 [Click here to view the website](http://mash-cloud-project-76.s3-website.ap-south-1.amazonaws.com)
+
 ## 🛠️ Technologies Used
 
 * AWS S3 (Static Website Hosting)
